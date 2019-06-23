@@ -19,10 +19,14 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Index</title>
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 </head>
 <body>
+    
+
+    <div class="full-landing-image">
     <div class="header">
         <h2 class="logo">MyPage</h2>
         <input type="checkbox" id="chk">
@@ -41,9 +45,14 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
             </label>
         </ul>
     </div>
+    </div>
 
-    <center>
-        <img src="" alt="">
-    </center>
+    <script>
+        $(".full-landing-image").ripples({
+            resolution:200,
+            pertuberance: 0.04,
+        });
+    </script>
+    
 </body>
 </html>

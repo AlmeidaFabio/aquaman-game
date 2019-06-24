@@ -28,7 +28,9 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
 
     <div class="full-landing-image">
         <div class="header">
-            <h2 class="logo">MyPage</h2>
+            <div class="logo">
+                <img src="img/tt.png" alt="">
+            </div>
             <input type="checkbox" id="chk">
             <label for="chk" class="show-menu-btn">
             <i class="fas fa-ellipsis-h"></i>
@@ -38,13 +40,70 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
             <a href="index.php">Home</a>
             <a href="login.php">Login</a>
             <a href="cadastro.php">Cadastrar</a>
-            <a href="skills.html">My Skills</a>
+            <a href="skills.html">Skills</a>
             <a href="social.html">Contatos</a>
             <label for="chk" class="hide-menu-btn">
                 <i class="fas fa-times"></i>
             </label>
             </ul>
         </div>
+
+    <section>
+        <div class="card middle">
+            <div class="front">
+                <img src="img/atlanna.jpg" alt="">
+            </div>
+            <div class="back">
+                <div class="back-content middle">
+                    <h2>Atlanna</h2>
+                    <span>Movie</span>
+                    <div class="sm">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card middle">
+            <div class="front">
+                <img src="img/aquaman.jpg" alt="">
+            </div>
+            <div class="back">
+                <div class="back-content middle">
+                    <h2>Aquaman</h2>
+                    <span>Movie</span>
+                    <div class="sm">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card middle">
+            <div class="front">
+                <img src="img/mera.jpg" alt="">
+            </div>
+            <div class="back">
+                <div class="back-content middle">
+                    <h2>Mera</h2>
+                    <span>Movie</span>
+                    <div class="sm">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
 
 
     </div>

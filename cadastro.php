@@ -7,8 +7,8 @@ if(isset($_POST['email']) && empty($_POST['email']) == false){
 
 	$sql = "INSERT INTO usuarios SET email = '$email', senha = '$senha'";
 	$pdo->query($sql);
-
-	header("Location: index.php");
+	header("Location: login.php");
+	
 }
 ?>
 

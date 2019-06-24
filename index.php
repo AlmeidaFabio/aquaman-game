@@ -35,10 +35,10 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
             </label>
 
             <ul class="menu">
-            <a href="#">Home</a>
+            <a href="index.php">Home</a>
             <a href="login.php">Login</a>
             <a href="cadastro.php">Cadastrar</a>
-            <a href="#">Works</a>
+            <a href="skills.html">My Skills</a>
             <a href="social.html">Contatos</a>
             <label for="chk" class="hide-menu-btn">
                 <i class="fas fa-times"></i>

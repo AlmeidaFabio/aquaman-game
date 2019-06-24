@@ -44,10 +44,9 @@ try {
 <body>
 	<div class="full-landing-image">
 	<form class="box" method="POST">
-		<h1>Login</h1>
-		<input type="email" name="email" placeholder="E-mail">
+		<input type="email" name="email" placeholder="E-mail" autofocus>
 		<input type="password" name="senha" placeholder="Senha">
-		<input type="submit" value="Login">
+		<input type="submit" value="Entrar">
 	</form>
 	</div>
 

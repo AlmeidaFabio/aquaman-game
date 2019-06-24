@@ -108,7 +108,7 @@ body {
 .full-landing-image {
     width: 100%;
     height: 100vh;
-    background: url(bg.jpg) no-repeat center;
+    background: url(img/bg.jpg) no-repeat center;
     background-size: cover;
 }
 .midle {
@@ -166,9 +166,14 @@ body {
         left: -10%;
     }
 }
-
+.container-fluid{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
 .middle{
     text-decoration: none;
+    text-align: center;
     font-family: "montserrat";
     position: absolute;
     top: 50%;
@@ -189,7 +194,7 @@ body {
     backface-visibility: hidden;
     position: absolute;
     transition: transform .6s linear;
-    border-radius: 50%;
+    
 }
 .front img{
     height: 100%;
@@ -219,7 +224,7 @@ body {
     color: #2c3e50;
     font-size: 18px;
     transition: 0.4s;
-    border-radius: 50%;
+    
 }
 .sm a:hover{
     background: #2c3e50;
@@ -232,7 +237,25 @@ body {
     transform: perspective(600px) rotateY(0deg);
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1130px){
+    .card{
+        cursor: pointer;
+        width: 240px;
+        height: 380px;
+        
+    }
+    .front, .back{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        backface-visibility: hidden;
+        position: absolute;
+        transition: transform .6s linear;
+        
+    }
+}
+
+@media screen and (max-width:830px) {
     .show-menu-btn,.hide-menu-btn{
       display: block;
     }
@@ -260,7 +283,7 @@ body {
     #chk:checked ~ .menu{
       right: 0;
     }
-    section{
+    .container-fluid{
         display: none;
     }
   }

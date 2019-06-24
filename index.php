@@ -22,10 +22,11 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
-    
-
+      
     <div class="full-landing-image">
         <div class="header">
             <div class="logo">
@@ -48,14 +49,18 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
             </ul>
         </div>
 
-        <div class="card middle">
-            <div class="front">
-                <img src="img/aquaman.jpg" alt="">
-            </div>
-            <div class="back">
-                <div class="back-content middle">
-                    <h2>Aquaman</h2>
-                    <span>Movie</span>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card middle">
+                    <div class="front">
+                        <img src="img/atlanna.jpg" alt="">
+                    </div>
+                    <div class="back">
+                    <div class="back-content middle">
+                            <h2>Atlanna</h2>
+                            <span>Movie</span>
                     <div class="sm">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -63,8 +68,52 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
                         <a href=""><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card middle">
+                    <div class="front">
+                        <img src="img/aquaman.jpg" alt="">
+                    </div>
+                    <div class="back">
+                    <div class="back-content middle">
+                            <h2>Aquaman</h2>
+                            <span>Movie</span>
+                    <div class="sm">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card middle">
+                    <div class="front">
+                        <img src="img/mera.jpg" alt="">
+                    </div>
+                    <div class="back">
+                    <div class="back-content middle">
+                            <h2>Mera</h2>
+                            <span>Movie</span>
+                    <div class="sm">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                </div>
+                </div>
             </div>
         </div>
+    </div>
+        
 
     </div>
 

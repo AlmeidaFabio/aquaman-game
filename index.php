@@ -48,25 +48,6 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
             </ul>
         </div>
 
-    <section>
-        <div class="card middle">
-            <div class="front">
-                <img src="img/atlanna.jpg" alt="">
-            </div>
-            <div class="back">
-                <div class="back-content middle">
-                    <h2>Atlanna</h2>
-                    <span>Movie</span>
-                    <div class="sm">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="card middle">
             <div class="front">
                 <img src="img/aquaman.jpg" alt="">
@@ -84,27 +65,6 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
                 </div>
             </div>
         </div>
-
-        <div class="card middle">
-            <div class="front">
-                <img src="img/mera.jpg" alt="">
-            </div>
-            <div class="back">
-                <div class="back-content middle">
-                    <h2>Mera</h2>
-                    <span>Movie</span>
-                    <div class="sm">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-        
-
 
     </div>
 

@@ -166,18 +166,13 @@ body {
         left: -10%;
     }
 }
-section {
-    margin: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
+
 .middle{
     text-decoration: none;
     font-family: "montserrat";
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; 
     transform: translate(-50%, -50%);
 }
 
@@ -185,6 +180,7 @@ section {
     cursor: pointer;
     width: 340px;
     height: 480px;
+    
 }
 .front, .back{
     width: 100%;
@@ -193,6 +189,7 @@ section {
     backface-visibility: hidden;
     position: absolute;
     transition: transform .6s linear;
+    border-radius: 50%;
 }
 .front img{
     height: 100%;

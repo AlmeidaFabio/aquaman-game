@@ -41,7 +41,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
             <a href="index.php">Home</a>
             <a href="login.php">Login</a>
             <a href="cadastro.php">Cadastrar</a>
-            <a href="skills.html">Skills</a>
+            <a href="#">Jogar</a>
             <a href="social.html">Contatos</a>
             <label for="chk" class="hide-menu-btn">
                 <i class="fas fa-times"></i>
@@ -52,7 +52,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
+            <div class="col" >
                 <div class="card middle">
                     <div class="front">
                         <img src="img/atlanna.jpg" alt="">
@@ -60,7 +60,8 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
                     <div class="back">
                     <div class="back-content middle">
                             <h2>Atlanna</h2>
-                            <span>Movie</span>
+                            <span><a href="skillsAtlanna.html">Skills</a></span><br>
+                            <span>Aquaman Online</span>
                     <div class="sm">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -80,7 +81,8 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
                     <div class="back">
                     <div class="back-content middle">
                             <h2>Aquaman</h2>
-                            <span>Movie</span>
+                            <span><a href="skillsAquaman.html">Skills</a></span><br>
+                            <span>Aquaman Online</span>
                     <div class="sm">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -100,7 +102,8 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false) {
                     <div class="back">
                     <div class="back-content middle">
                             <h2>Mera</h2>
-                            <span>Movie</span>
+                            <span><a href="skillsMera.html">Skills</a></span><br>
+                            <span>Aquaman Online</span>
                     <div class="sm">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>

@@ -26,6 +26,7 @@ if(isset($_POST['email']) && empty($_POST['email']) == false){
 <body>
 	<div class="full-landing-image">
 	<form class="box" method="POST">
+	<img src="img/tt.png" alt="">
 		<h1>Cadastro</h1>
 		<input type="email" name="email" placeholder="E-mail">
 		<input type="password" name="senha" placeholder="Senha">

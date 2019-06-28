@@ -1,0 +1,169 @@
+body{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.full-landing-image {
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.skills{
+    width: 600px;
+    color: rgb(232, 237, 240);
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+.skills li {
+    margin: 20px 0;
+}
+.skills h1{
+    position: absolute;
+    left: 60%;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #218727b3;
+}
+.bar span {
+    height: 10px;
+    float: left;
+    background: #21e721;
+}
+.ataque{
+   width: 50%;
+   animation: ataque 2s; 
+}
+.defesa{
+    width: 80%;
+    animation: defesa 2s;
+}
+.magia{
+    width: 90%;
+    animation: magia 2s;
+}
+.esquiva{
+    width: 70%;
+    animation: esquiva 2s;
+}
+.velocidade{
+    width: 85%;
+    animation: velocidade 2s;
+}
+.critico{
+    width: 60%;
+    animation: critico 2s;
+}
+@keyframes ataque {
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 50%
+    }
+}
+@keyframes defesa {
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 80%
+    }
+}
+@keyframes magia {
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 90%
+    }
+}
+@keyframes esquiva {
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 70%
+    }
+}
+@keyframes velocidade {
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 85%
+    }
+}
+@keyframes critico {
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 60%
+    }
+}
+
+
+.midle {
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.26s linear;
+}
+.btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btn:before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa {
+    0%{
+        left: -110%;
+        top: 90%;
+    }50%{
+        left:10%;
+        top: -30%;
+    }100%{
+        top: -10%;
+        left: -10%;
+    }
+}

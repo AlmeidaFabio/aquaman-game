@@ -44,8 +44,9 @@ try {
 <body>
 	<div class="full-landing-image">
 	<form class="box" method="POST">
-		<input type="email" name="email" placeholder="E-mail" autofocus>
-		<input type="password" name="senha" placeholder="Senha">
+	<img src="img/tt.png" alt="">
+		<input type="email" name="email" placeholder="Insira o seu E-mail" autofocus>
+		<input type="password" name="senha" placeholder="Digite sua Senha">
 		<input type="submit" value="Entrar">
 	</form>
 	</div>

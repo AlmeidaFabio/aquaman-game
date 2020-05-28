@@ -9,13 +9,14 @@ body{
     height: 100vh;
     background: url(img/bg.jpg) no-repeat center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .skills{
     width: 600px;
     color: rgb(232, 237, 240);
-    position: absolute;
-    top: 20%;
-    left: 35%;
+    
 }
 .skills li {
     margin: 20px 0;
